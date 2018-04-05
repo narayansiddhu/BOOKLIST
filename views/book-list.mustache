@@ -12,4 +12,13 @@
     <p>this is book store you can buy and sell at here</p>
 </body>
     <a href="/"> HOME </a>
+      <table>
+        {{#rows}}
+        <tr>
+            <td>{{book_id}}</td>
+            <td>{{title}}</td>
+            <td>{{author}}</td>
+         </tr>
+         {{/rows}}
+    </table>
 </html>
